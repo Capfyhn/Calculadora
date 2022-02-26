@@ -1,1 +1,1 @@
-Esse projeto se trata de uma pratica de JS e de Html e CSS :)
+Esse projeto se trata de uma pratica de JS e de Html e CSS :) 
