@@ -31,10 +31,8 @@ main {
     
 }
 
-table {
-    width: 100%;
-    height: clamp(1000px, 30%, 1000px);
-    margin: auto;
+div {
+    display:grid
 }
 
 button {
