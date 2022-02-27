@@ -31,18 +31,6 @@ main {
     
 }
 
-div {
-    display:grid
-}
-
-button {
-    height: clamp(10px,90%,100px);
-    width: clamp(10px,90%,100px);
-    font-size: clamp(2rem, 20%, 10rem);
-    aspect-ratio: 1 / 1;
-}
-
-
 p {
     background-color:white;
     width: 98%;
@@ -50,6 +38,36 @@ p {
     margin: auto;
     font-size: 3rem;
     
+}
+
+
+#ponto {
+    grid-row: 5/6;
+}
+
+#zero {
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+
+#igual {
+    grid-row: 4/6;
+    justify-content: end;
+}
+
+.teclado {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2rem;
+    height: 70vh;
+    
+}
+
+button {
+    background-color:rgb(46, 46, 46);
+    color:white;
+    height: 100%;
+    width:100%;
 }
 
 button:hover {
