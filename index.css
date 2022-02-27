@@ -68,8 +68,38 @@ button {
     color:white;
     height: 100%;
     width:100%;
+    font-size: clamp(10px,10vw,20px)
 }
 
 button:hover {
+    background-color:rgb(56, 56, 56);
     
 }
+
+@media (max-width: 730px) {
+.teclado {
+    height:50vh;
+}
+
+}
+
+@media (max-width: 550px) {
+    .teclado {
+        height:35vh;
+    }
+    
+    }
+
+    @media (max-width: 500px) {
+        .teclado {
+            height:26vh;
+        }
+        
+        }
+
+        @media (max-width: 380px) {
+            .teclado {
+                height:20vh;
+            }
+            
+            }
