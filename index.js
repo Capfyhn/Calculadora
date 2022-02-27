@@ -1,7 +1,12 @@
+/*document.getElementById("resultado").innerHTML = "Type name here..";*/
 function insert(num) {
+    /*document.getElementById("resultado").innerHTML = "";*/
+
 
     var numero = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = numero + num;
+    
+
 }
 
 function clean() {

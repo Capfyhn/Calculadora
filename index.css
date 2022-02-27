@@ -43,6 +43,10 @@ p {
     
 }
 
+p:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+  }
+
 
 #ponto {
     grid-row: 5/6;
