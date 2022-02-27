@@ -8,15 +8,52 @@ body {
     min-height:100vh;
 }
 
-h1#titulo1 {font-size: clamp(100px, 30%, 300px);
+h1#titulo1 {font-size: clamp(50px, 90%, 600px);
            text-align: center;
            color: black;
            -webkit-text-stroke-width:2px;
            -webkit-text-stroke-color: white;}
 
+h1#titulo2 {
+    font-size: clamp(20px, 30%, 500px);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
 main {
-    background-color:aqua;
+    background-color:rgb(46, 46, 46);
     width: 50%;
-    height: 80vh;
+    height: auto;
+    margin: 5% auto;
+    text-align:center;
+    padding: 15px;
+    border-radius:20px;
+    
+}
+
+table {
+    width: 100%;
+    height: clamp(1000px, 30%, 1000px);
     margin: auto;
+}
+
+button {
+    height: clamp(10px,90%,100px);
+    width: clamp(10px,90%,100px);
+    font-size: clamp(2rem, 20%, 10rem);
+    aspect-ratio: 1 / 1;
+}
+
+
+p {
+    background-color:white;
+    width: 98%;
+    height: 8%;
+    margin: auto;
+    font-size: 3rem;
+    
+}
+
+button:hover {
+    
 }
