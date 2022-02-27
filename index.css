@@ -15,7 +15,7 @@ h1#titulo1 {font-size: clamp(50px, 90%, 600px);
            -webkit-text-stroke-color: white;}
 
 h1#titulo2 {
-    font-size: clamp(20px, 30%, 500px);
+    font-size: clamp(20px, 3vw, 500px);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
 }
@@ -33,10 +33,13 @@ main {
 
 p {
     background-color:white;
-    width: 100%;
+    width: clamp(10px,94%,1000px);
     height: 8%;
     margin: auto;
-    font-size: 3rem;
+    font-size: clamp(20px,5vw,70px);
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 3%;
     
 }
 
@@ -59,7 +62,7 @@ p {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 70vh;
-    grid-gap: 5px;
+    grid-gap: 10px;
     padding-top: 10px;
     
 }
@@ -69,7 +72,8 @@ button {
     color:white;
     height: 100%;
     width:100%;
-    font-size: clamp(10px,10vw,30px)
+    font-size: clamp(10px,10vw,30px);
+    border-radius:10px;
 }
 
 button:hover {
@@ -100,7 +104,7 @@ button:hover {
 
         @media (max-width: 380px) {
             .teclado {
-                height:22vh;
+                height:25vh;
             }
             
             }
